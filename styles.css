@@ -23,7 +23,7 @@
 }
 
 .logo > img{
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .links {
@@ -74,6 +74,7 @@
   font-weight: 700;
   border-radius: 8px;
   padding: 5px 20px;
+  margin-top: 15px;
 }
 
 .header-image > img{
@@ -122,3 +123,52 @@
   padding: 0 30px;
   border-radius: 15%;
 }
+
+.quote-container {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  color: #1F2937;
+  margin: 100px;
+  padding: 50px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #3882F6;
+  margin: 100px;
+  padding: 50px;
+  border-radius: 8px;
+  color: #F9FAF8;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer .text > h4 {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.footer > button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  border-radius: 4px;
+  border: solid 1px white;
+  align-self: flex-end;
+  margin-left: 100px;
+  padding: 4px 25px;
+} 

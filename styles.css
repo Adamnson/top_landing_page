@@ -128,12 +128,12 @@
   align-items: center;
 }
 
-.quote {
+.quote p {
   color: #1F2937;
   margin: 100px;
   padding: 50px;  
   font-size: 36px;
-  font-weight: light;
+  font-weight: 100;
   font-style: italic;
 }
 
@@ -174,3 +174,14 @@
   margin-left: 100px;
   padding: 4px 25px;
 } 
+
+.copyright-container {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+.copyright-info {
+  margin: 25px;
+  color: #F9FAF8;
+}

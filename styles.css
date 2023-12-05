@@ -40,21 +40,20 @@
 .header-container {
   background-color: #1F2937;
   color: white;
-  height: 500px;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  flex-wrap: wrap;
 }
 
 .header-text{
-  margin: 0 40px;
+  margin: 80px 40px;
 }
 
-.header-text .title{
+.header-text > h2{
   font-weight: 600;
   font-size: 64px;
   margin-right: 50%;
@@ -78,13 +77,10 @@
 }
 
 .header-image > img{
-  /* background-color: grey; */
   height: auto;
   width: 500px;
-  border-radius: 10%;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  border-radius: 10px;
+  margin: 80px;
 }
 
 .content-container {
@@ -126,9 +122,6 @@
 
 .quote-container {
   background-color: #E5E7EB;
-  font-size: 36px;
-  font-weight: 100;
-  font-style: italic;
   display: flex;
   height: 300px;
   justify-content: center;
@@ -139,6 +132,15 @@
   color: #1F2937;
   margin: 100px;
   padding: 50px;  
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  margin: 50px;
+  font-weight: 900;
 }
 
 .footer-container {

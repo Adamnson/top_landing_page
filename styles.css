@@ -58,13 +58,13 @@
   font-size: 64px;
   margin-right: 50%;
   flex-wrap: wrap;
-  width: 500px;
+  max-width: 50rem;
 }
 
 .header-text > p{
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  max-width: 50rem;
 }
 
 .header-text > button {
@@ -123,7 +123,7 @@
 .content-images * > img {
   width: 300px;
   height: 200px;
-  padding: 0 30px;
+  padding: 0 2rem;
   border-radius: 15%;
 }
 
@@ -137,17 +137,17 @@
 
 .quote p {
   color: #1F2937;
-  margin: 100px;
   padding: 50px;  
   font-size: 36px;
   font-weight: 100;
   font-style: italic;
+  max-width: 50rem;
 }
 
 .quote-author {
   align-self: flex-end;
-  margin: 50px;
   font-weight: 900;
+  padding: 1rem;
 }
 
 .footer-container {
@@ -157,7 +157,6 @@
 
 .footer {
   background-color: #3882F6;
-  margin: 100px;
   padding: 50px;
   border-radius: 8px;
   color: #F9FAF8;

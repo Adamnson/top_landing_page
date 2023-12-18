@@ -83,6 +83,13 @@
   margin: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .header-image > img{
+    margin: 10px;
+    max-width: 95%;
+  }
+}
+
 .content-container {
   display: flex;
   align-items: center;
